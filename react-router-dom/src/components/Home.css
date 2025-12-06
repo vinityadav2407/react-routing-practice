@@ -1,0 +1,23 @@
+.Home{
+    height: 50vh;
+    background-color: aliceblue;
+    margin:0 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+.btn {
+    width: fit-content;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
