@@ -1,13 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import './User.css';
 
 const User = () => {
   return (
      <div className='Home'>
      <h1>User</h1>
-     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod modi itaque hic vel adipisci dolore a, quis unde libero perspiciatis aliquid ullam sed, tempora laboriosam ipsum esse id quo deserunt?
-     Eaque fugit hic ducimus numquam laboriosam id? Ex nam adipisci ab sunt! Ea, neque cupiditate nisi itaque vero eius modi, laudantium magnam maxime corporis temporibus placeat et velit, qui hic?</p>
 
-     <button className='btn'>Explore More</button>
+     <div className="dynamicRoute">
+      <Link to='/user/Uday_Kanaujiya'  >Uday_Kanaujiya</Link>
+      <Link to='/user/Monu_Chauhan'  >Monu_Chauhan</Link>
+      <Link to='/user/Deepak_Kumar_Kushawaha'  >Deepak_Kumar_Kushawaha</Link>
+      <Link to='/user/Satyam_Sahu' >Satyam_Sahu</Link>
+     </div>
      </div>
   )
 }

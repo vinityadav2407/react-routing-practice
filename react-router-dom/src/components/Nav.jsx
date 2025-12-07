@@ -11,7 +11,7 @@ import "./Nav.css";
 
 const Nav = () => {
   return (
-    <nav className="navBar">
+    <nav className="navBar" >
       <NavLink
         to="/"
         style={(e) => {
